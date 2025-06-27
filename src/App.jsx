@@ -9,7 +9,7 @@ function App() {
           <Link to="/">hello</Link>
         </nav>
         <Routes>
-          <Route path="/" element={<Experiment />}></Route>
+          <Route path="/experiment" element={<Experiment />}></Route>
         </Routes>
       </BrowserRouter>
     </>
